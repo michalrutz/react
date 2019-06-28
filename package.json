@@ -1,12 +1,24 @@
 {
-  "name": "07dupa",
+  "name": "mini",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "author": "michalrutz <46682195+michalrutz@users.noreply.github.com>",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "live-server public/",
+    "web": "webpack --watch"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "liveserver": "^0.1.20",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "webpack": "^4.35.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.5"
+  }
 }
